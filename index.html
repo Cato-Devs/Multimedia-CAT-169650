@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Our Wildlife</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Save Our Wildlife</h1>
+  </header>
+
+  <main>
+    <section class="video-section" aria-labelledby="video-heading">
+      <h2 id="video-heading" class="visually-hidden">Promotional Video</h2>
+
+      <video
+        id="wildlifeVideo"
+        controls
+        width="100%"
+        poster="poster.jpg"
+        aria-describedby="video-description">
+        <source src="wildlife.mp4" type="video/mp4">
+        <track kind="captions" src="captions.vtt" srclang="en" label="English captions">
+        Your browser does not support the video tag. Please
+        <a href="wildlife.mp4">download the video</a> instead.
+      </video>
+
+      <p id="video-description" class="description">
+        Join us on a journey through the world's last untouched habitats.
+        This short film highlights the urgent threats facing endangered
+        species and shows how your support helps protect wildlife and
+        their natural homes for future generations.
+      </p>
+
+      <button id="toggleBtn" type="button" aria-pressed="false">
+        Hide Video
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Save Our Wildlife Conservation Organization</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
