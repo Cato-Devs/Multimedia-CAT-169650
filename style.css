@@ -24,7 +24,7 @@ body {
 
 /* ===== Header ===== */
 header {
-  background-color: #3a7d44;
+  background-color: #4A0010;
   color: #ffffff;
   text-align: center;
   padding: 1.5rem 1rem;
@@ -72,7 +72,7 @@ button#toggleBtn {
   font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
-  background-color: #3a7d44;
+  background-color: #4A0010;
   border: none;
   border-radius: 6px;
   cursor: pointer;
